@@ -61,7 +61,7 @@ graph TD
     
     subgraph "External Resources"
         ScraperSvc -->|GET| Yahoo[Yahoo Finance]
-        ModelSvc -->|Load| HuggingFace[HF Hub (FinBERT)]
+        ModelSvc -->|Load| HuggingFace["HF Hub (FinBERT)"]
         AgentSvc -->|API| Groq[Groq Cloud]
     end
     
