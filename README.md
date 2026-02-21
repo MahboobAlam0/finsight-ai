@@ -67,6 +67,12 @@ graph TD
     
     ModelSvc -->|Sentiment| Database[(Transient Store)]
 ```
+---
+
+## Demo Screenshots
+![Demo Screenshot](demo.png)
+![Demo Screenshot](demo1.png)
+![Demo Screenshot](demo2.png)
 
 ---
 

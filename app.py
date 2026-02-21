@@ -7,7 +7,7 @@ import plotly.express as px
 API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
 
 st.set_page_config(page_title="FinSight AI", layout="wide", page_icon="📈")
-st.title("📈 FinSight AI: Narrative Intelligence System")
+st.title("FinSight AI: Narrative Intelligence System")
 
 with st.sidebar:
     company = st.text_input("Company", "Tesla")
@@ -38,7 +38,7 @@ if "articles" in st.session_state:
     tab1, tab2, tab3, tab4 = st.tabs([
         "Structured Report",
         "Sentiment Overview",
-        "🤖 AI Insight Agent",
+        "AI Insight Agent",
         "Raw Data"
     ])
 
